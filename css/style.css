@@ -119,9 +119,21 @@ img {
     align-items: center;
 }
 
+.header-logos {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
 .header-logo img {
     height: 55px;
     width: auto;
+}
+
+.header-partner-logo {
+    height: 50px;
+    width: auto;
+    opacity: 1;
 }
 
 .header-nav {
@@ -555,12 +567,20 @@ img {
     letter-spacing: 1px;
 }
 
+.patrocinio-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
 .patrocinio-img {
     background-color: var(--color-bg-white);
-    padding: 10px 20px;
+    padding: 15px 30px;
     border-radius: var(--radius-md);
-    max-width: 250px;
-    height: auto;
+    max-width: 300px;
+    height: 100px; /* Aumentado de 60px para 100px */
+    object-fit: contain;
 }
 
 .footer-bottom {

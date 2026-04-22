@@ -22,10 +22,14 @@
     <!-- Header / Navbar -->
     <header class="header">
         <div class="container header-container">
-            <a href="#hero" class="header-logo">
-                <img src="assets/images/logo.png" alt="Logo Hub Digital Raiva Zero PE"
-                    onerror="this.src='https://placehold.co/150x50/000000/FFFFFF/png?text=RAIVA+ZERO';">
-            </a>
+            <div class="header-logos">
+                <a href="#hero" class="header-logo">
+                    <img src="assets/images/logo.png" alt="Logo Hub Digital Raiva Zero PE"
+                        onerror="this.src='https://placehold.co/150x50/000000/FFFFFF/png?text=RAIVA+ZERO';">
+                </a>
+                <img src="assets/images/logo ufrpe.png" alt="Logo UFRPE" class="header-partner-logo">
+                <img src="assets/images/logo lavian.png" alt="Logo Lavian" class="header-partner-logo">
+            </div>
             <nav class="header-nav">
                 <a href="#materiais">Materiais</a>
                 <a href="#sobre">Sobre a Raiva</a>
@@ -121,6 +125,22 @@
                         <div class="resource-arrow">→</div>
                     </a>
 
+                    <a href="#" class="resource-link-card" id="btn-monitoramento">
+                        <div class="resource-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2">
+                                <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
+                                <line x1="16" y1="8" x2="2" y2="22"></line>
+                                <line x1="17.5" y1="15" x2="9" y2="6.5"></line>
+                            </svg>
+                        </div>
+                        <div class="resource-text">
+                            <h3>Monitoramento</h3>
+                            <p>Dados situacionais e mapas epidemiológicos da raiva</p>
+                        </div>
+                        <div class="resource-arrow">→</div>
+                    </a>
+
                     <a href="#" class="resource-link-card" id="btn-sites-importantes">
                         <div class="resource-icon">
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
@@ -211,35 +231,32 @@
                 </div>
 
                 <div class="articles-grid reveal">
-                    <!-- Artigo 1 -->
+                    <!-- Artigo 1: Pernambuco Silvestre -->
                     <article class="article-card">
                         <div class="article-image"
-                            style="background-image: url('https://placehold.co/600x400/eeeeee/111111?text=Impacto+na+Saúde+Pública');">
+                            style="background-image: url('https://placehold.co/600x400/eeeeee/111111?text=Animais+Silvestres+PE');">
                         </div>
                         <div class="article-content">
-                            <span class="article-tag">Saúde Pública</span>
-                            <h3 class="article-title">Epidemiologia e o cenário da Raiva</h3>
-                            <p class="article-excerpt">Um artigo sobre as dificuldades de erradicação da doença, métodos
-                                de prevenção adotados e a importância vital das campanhas de imunização contínuas.</p>
-                            <a href="#" class="article-link">Ler publicação <svg width="18" height="18"
+                            <span class="article-tag">Epidemiologia</span>
+                            <h3 class="article-title">Atendimentos por animais silvestres em PE</h3>
+                            <p class="article-excerpt">Estudo detalhado sobre o perfil dos atendimentos antirrábicos pós-exposição em Pernambuco, com foco no aumento das ocorrências envolvendo morcegos e o ciclo silvestre.</p>
+                            <a href="assets/artigos/Artigos revistas combinados.pdf" target="_blank" class="article-link">Ler publicação <svg width="18" height="18"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M5 12h14m-7-7 7 7-7 7" />
                                 </svg></a>
                         </div>
                     </article>
 
-                    <!-- Artigo 2 -->
+                    <!-- Artigo 2: Caruaru -->
                     <article class="article-card">
                         <div class="article-image"
-                            style="background-image: url('https://placehold.co/600x400/eeeeee/111111?text=A+Saúde+Única');">
+                            style="background-image: url('https://placehold.co/600x400/eeeeee/111111?text=Casos+Graves+Caruaru');">
                         </div>
                         <div class="article-content">
-                            <span class="article-tag">One Health</span>
-                            <h3 class="article-title">A importância da Saúde Única</h3>
-                            <p class="article-excerpt">A interconexão intrínseca entre os meios ambiente, humano e
-                                animal, demonstrando que a alteração no equilíbrio de um, impacta em todos e facilita o
-                                avanço de zoonoses.</p>
-                            <a href="#" class="article-link">Ler publicação <svg width="18" height="18"
+                            <span class="article-tag">Vigilância em Saúde</span>
+                            <h3 class="article-title">Análise de casos graves em Caruaru</h3>
+                            <p class="article-excerpt">Análise epidemiológica de exposições humanas graves à raiva no interior de Pernambuco, ressaltando a relevância da vacinação em massa e políticas locais de prevenção.</p>
+                            <a href="assets/artigos/artigo 1.pdf" target="_blank" class="article-link">Ler publicação <svg width="18" height="18"
                                     viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
                                     <path d="M5 12h14m-7-7 7 7-7 7" />
                                 </svg></a>
@@ -279,21 +296,7 @@
                                     projetos em zoonoses.</p>
                             </div>
 
-                            <!-- Projeto 2 -->
-                            <div class="project-box" id="btn-monitoramento" style="cursor: pointer;">
-                                <div class="project-icon">
-                                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor"
-                                        stroke-width="1.5">
-                                        <path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"></path>
-                                        <line x1="16" y1="8" x2="2" y2="22"></line>
-                                        <line x1="17.5" y1="15" x2="9" y2="6.5"></line>
-                                    </svg>
-                                </div>
-                                <h3 class="project-title">Monitoramento</h3>
-                                <p class="project-desc">Suporte tático e produção de mapas situacionais para intervir de
-                                    maneira preventiva.</p>
-                                <div class="project-arrow">Ver Mapas e Dados →</div>
-                            </div>
+
 
                             <!-- Projeto 3 -->
                             <div class="project-box" id="btn-comunidade" style="cursor: pointer;">
@@ -322,7 +325,8 @@
                                     </svg>
                                 </div>
                                 <h3 class="project-title">Educação em Saúde</h3>
-                                <p class="project-desc">Atividades de campo e visitas educativas nas comunidades de Bogodó e Floresta.</p>
+                                <p class="project-desc">Atividades de campo e visitas educativas nas comunidades de
+                                    Bogodó e Floresta.</p>
                                 <div class="project-arrow">Ver Fotos →</div>
                             </div>
                         </div>
@@ -353,8 +357,11 @@
             </div>
 
             <div class="footer-patrocinio">
-                <p>Apoio / Patrocínio:</p>
-                <img src="assets/images/patrocinio.png" alt="Patrocínio" class="patrocinio-img">
+                <p>Apoio / Financiamento:</p>
+                <div class="patrocinio-logos">
+                    <img src="assets/images/patrocinio.png" alt="Patrocínio" class="patrocinio-img">
+                    <img src="assets/images/logo ufrpe.png" alt="UFRPE" class="patrocinio-img">
+                </div>
             </div>
 
             <div class="footer-bottom">
@@ -378,17 +385,30 @@
             <div class="modal-body">
                 <div class="modal-links">
                     <!-- Raiva Animal -->
-                    <a href="https://mapa-indicadores.agricultura.gov.br/publico/extensions/Saude_animal/Saude_animal.html" target="_blank" class="modal-link-item support-site-link">
+                    <a href="https://mapa-indicadores.agricultura.gov.br/publico/extensions/Saude_animal/Saude_animal.html"
+                        target="_blank" class="modal-link-item support-site-link">
                         <span class="link-label">Raiva Animal</span>
                         <span class="link-desc">Consulta de indicadores e mapas de saúde animal (MAPA).</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg></span>
                     </a>
 
                     <!-- Raiva Humana -->
-                    <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva/raiva-humana" target="_blank" class="modal-link-item support-site-link">
+                    <a href="https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/r/raiva/raiva-humana"
+                        target="_blank" class="modal-link-item support-site-link">
                         <span class="link-label">Raiva Humana</span>
-                        <span class="link-desc">Informações técnicas e cenário da raiva humana (Ministério da Saúde).</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></span>
+                        <span class="link-desc">Informações técnicas e cenário da raiva humana (Ministério da
+                            Saúde).</span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg></span>
                     </a>
                 </div>
             </div>
@@ -405,31 +425,56 @@
             <div class="modal-body">
                 <div class="modal-links">
                     <!-- Spotify -->
-                    <a href="https://open.spotify.com/playlist/5ymKifjO7hbwYNvgk6tRpr?si=DRehuGUtR3SeY_FxVjspXg" target="_blank" class="modal-link-item spotify-link">
+                    <a href="https://open.spotify.com/playlist/5ymKifjO7hbwYNvgk6tRpr?si=DRehuGUtR3SeY_FxVjspXg"
+                        target="_blank" class="modal-link-item spotify-link">
                         <span class="link-label">Playlist Spotify</span>
                         <span class="link-desc">Confira nossa trilha de rádio e podcasts educativos.</span>
-                        <span class="link-external-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><path d="M8 14.5c2.5-1 5.5-1 8 0" /><path d="M7 11.5c3.5-1.5 7.5-1.5 11 0" /><path d="M9 17c2-1 4-1 6 0" /></svg></span>
+                        <span class="link-external-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <circle cx="12" cy="12" r="10" />
+                                <path d="M8 14.5c2.5-1 5.5-1 8 0" />
+                                <path d="M7 11.5c3.5-1.5 7.5-1.5 11 0" />
+                                <path d="M9 17c2-1 4-1 6 0" />
+                            </svg></span>
                     </a>
 
                     <!-- YouTube -->
-                    <a href="https://www.youtube.com/playlist?list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i" target="_blank" class="modal-link-item youtube-link">
+                    <a href="https://www.youtube.com/playlist?list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i" target="_blank"
+                        class="modal-link-item youtube-link">
                         <span class="link-label">Playlist YouTube</span>
                         <span class="link-desc">Vídeos, lives e materiais em vídeo sobre Raiva Zero.</span>
-                        <span class="link-external-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" /><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg></span>
+                        <span class="link-external-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" />
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                            </svg></span>
                     </a>
 
                     <!-- Instagram Raiva Zero -->
-                    <a href="https://www.instagram.com/raiva.zero?igsh=MXR6ejA4MXZqYTB2ag==" target="_blank" class="modal-link-item instagram-link">
+                    <a href="https://www.instagram.com/raiva.zero?igsh=MXR6ejA4MXZqYTB2ag==" target="_blank"
+                        class="modal-link-item instagram-link">
                         <span class="link-label">Instagram Raiva Zero</span>
                         <span class="link-desc">Acompanhe as atualizações do projeto Raiva Zero PE.</span>
-                        <span class="link-external-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg></span>
+                        <span class="link-external-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg></span>
                     </a>
 
                     <!-- Instagram Lavian -->
-                    <a href="https://www.instagram.com/lavian.ufrpe?igsh=M2FkN2VmZWFjbnY4" target="_blank" class="modal-link-item instagram-link">
+                    <a href="https://www.instagram.com/lavian.ufrpe?igsh=M2FkN2VmZWFjbnY4" target="_blank"
+                        class="modal-link-item instagram-link">
                         <span class="link-label">Instagram Lavian</span>
                         <span class="link-desc">Acompanhe as atividades e projetos do Lavian UFRPE.</span>
-                        <span class="link-external-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" /></svg></span>
+                        <span class="link-external-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
+                            </svg></span>
                     </a>
                 </div>
             </div>
@@ -446,29 +491,64 @@
             <div class="modal-body">
                 <div class="modal-links">
                     <!-- Link Externo -->
-                    <a href="https://alanjorgegomes1-wq.github.io/material-de-apoio-raiva/" target="_blank" class="modal-link-item support-site-link">
+                    <a href="https://alanjorgegomes1-wq.github.io/material-de-apoio-raiva/" target="_blank"
+                        class="modal-link-item support-site-link">
                         <span class="link-label">Material de Apoio (Site)</span>
                         <span class="link-desc">Plataforma oficial de materiais de apoio sobre a Raiva.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg></span>
                     </a>
 
                     <div class="modal-divider">Arquivos para Download</div>
 
                     <!-- PDFs Locais -->
-                    <a href="assets/manuals/Gibi Turma da Mônica_Abaixo a Raiva_ Novembro 2021.pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/manuals/Gibi Turma da Mônica_Abaixo a Raiva_ Novembro 2021.pdf" target="_blank"
+                        class="modal-link-item pdf-link">
                         <span class="link-label">Gibi Turma da Mônica</span>
                         <span class="link-desc">Abaixo a Raiva - Material educativo infantil.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
-                    <a href="assets/manuals/MANUAL_RAIVAHERBVOROS2009.pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/manuals/MANUAL_RAIVAHERBVOROS2009.pdf" target="_blank"
+                        class="modal-link-item pdf-link">
                         <span class="link-label">Manual Raiva Herbívoros</span>
                         <span class="link-desc">Guia técnico sobre a raiva em animais herbívoros (2009).</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
-                    <a href="assets/manuals/Manual de Diagnóstico Laboratorial da Raiva.pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/manuals/Manual de Diagnóstico Laboratorial da Raiva.pdf" target="_blank"
+                        class="modal-link-item pdf-link">
                         <span class="link-label">Diagnóstico Laboratorial</span>
                         <span class="link-desc">Manual completo para diagnóstico laboratorial da raiva.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
+                    </a>
+                    <a href="assets/manuals/manual profilaxia.pdf" target="_blank"
+                        class="modal-link-item pdf-link">
+                        <span class="link-label">Manual de Profilaxia</span>
+                        <span class="link-desc">Guia sobre profilaxia da raiva humana.</span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
                 </div>
             </div>
@@ -484,11 +564,17 @@
             </div>
             <div class="modal-body">
                 <div class="modal-links">
-                    <!-- Proposta FACEPE -->
-                    <a href="assets/docs/PROPOSTA_FACEPE_Hub_Digital_Raiva_Zero_PE_assinado.pdf" target="_blank" class="modal-link-item pdf-link">
-                        <span class="link-label">Proposta FACEPE</span>
-                        <span class="link-desc">Documento original da proposta aprovada pela FACEPE (assinado).</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                    <!-- Apresentação Hub Digital -->
+                    <a href="assets/docs/apresentação hub digital.pdf" target="_blank"
+                        class="modal-link-item pdf-link">
+                        <span class="link-label">Apresentação Hub Digital</span>
+                        <span class="link-desc">Documento de apresentação detalhada do Hub Digital.</span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
                 </div>
             </div>
@@ -507,30 +593,60 @@
                 <!-- Seção 1: Panfletos e Cartilhas -->
                 <div class="modal-divider">Panfletos e Cartilhas</div>
                 <div class="modal-links">
-                    <a href="assets/flyers/Cópia de Cartilha Infantil - Morcego Falante .pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/flyers/Morcego Falante.pdf" target="_blank"
+                        class="modal-link-item pdf-link" rel="noopener noreferrer">
                         <span class="link-label">Cartilha Infantil – Morcego Falante</span>
                         <span class="link-desc">Material educativo voltado ao público infantil.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
-                    <a href="assets/flyers/Cartilha Raiva Jovens ed. 2.pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/flyers/Cartilha Raiva Jovens ed. 2.pdf" target="_blank"
+                        class="modal-link-item pdf-link">
                         <span class="link-label">Cartilha Raiva Jovens (Ed. 2)</span>
                         <span class="link-desc">Informações sobre a raiva para o público jovem.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
-                    <a href="assets/flyers/Cartilha Raiva Profissionais ed. 3.pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/flyers/Cartilha Raiva Profissionais ed. 3.pdf" target="_blank"
+                        class="modal-link-item pdf-link">
                         <span class="link-label">Cartilha para Profissionais (Ed. 3)</span>
                         <span class="link-desc">Guia técnico voltado a profissionais de saúde.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
-                    <a href="assets/flyers/fui mordido e agora (1).pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/flyers/fui mordido e agora (1).pdf" target="_blank"
+                        class="modal-link-item pdf-link">
                         <span class="link-label">Fui Mordido, e Agora?</span>
                         <span class="link-desc">Guia rápido de orientação pós-exposição.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
-                    <a href="assets/flyers/Cards_RAIVA_Thamyres_jun24_compressed.pdf_20251119_150405_0000.pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/flyers/Cards_RAIVA_Thamyres_jun24_compressed.pdf_20251119_150405_0000.pdf"
+                        target="_blank" class="modal-link-item pdf-link">
                         <span class="link-label">Cards Informativos sobre Raiva</span>
                         <span class="link-desc">Série de cards para divulgação e conscientização.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
                 </div>
 
@@ -538,59 +654,101 @@
                 <div class="modal-divider">Games</div>
                 <p class="modal-subsection-label">🎲 Jogos Lúdicos</p>
                 <div class="modal-links">
-                    <a href="assets/flyers/Jogos ludicos/jogo da memoria oficial.pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/flyers/Jogos ludicos/jogo da memoria oficial.pdf" target="_blank"
+                        class="modal-link-item pdf-link">
                         <span class="link-label">Jogo da Memória</span>
                         <span class="link-desc">Jogo da memória educativo sobre a raiva.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
-                    <a href="assets/flyers/Jogos ludicos/quem-sou-eu-jogo.pdf" target="_blank" class="modal-link-item pdf-link">
+                    <a href="assets/flyers/Jogos ludicos/quem-sou-eu-jogo.pdf" target="_blank"
+                        class="modal-link-item pdf-link">
                         <span class="link-label">Quem Sou Eu?</span>
                         <span class="link-desc">Jogo de adivinhação temático sobre animais e raiva.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
                     <a href="assets/flyers/Jogos ludicos/Arquivos.pdf" target="_blank" class="modal-link-item pdf-link">
                         <span class="link-label">Material Complementar de Jogos</span>
                         <span class="link-desc">Arquivos adicionais para aplicação dos jogos lúdicos.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                                <polyline points="7 10 12 15 17 10"></polyline>
+                                <line x1="12" y1="15" x2="12" y2="3"></line>
+                            </svg></span>
                     </a>
                 </div>
 
                 <p class="modal-subsection-label">🎮 Jogos Digitais</p>
                 <div class="modal-links">
-                    <a href="assets/flyers/Jogos online/Tutorial para jogar e link de avaliação do jogo raivazero.docx" target="_blank" class="modal-link-item pdf-link">
-                        <span class="link-label">Tutorial do Jogo Digital Raiva Zero</span>
-                        <span class="link-desc">Instruções de como jogar e link de avaliação.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg></span>
-                    </a>
-                    <a href="https://drive.google.com/drive/folders/1J7egEPpuun8XpVa5iNECJ6Wh4DclOWCF" target="_blank" class="modal-link-item support-site-link">
-                        <span class="link-label">Download do Jogo Digital</span>
-                        <span class="link-desc">Acesse a pasta no Google Drive para baixar o jogo.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></span>
+                    <a href="https://drive.google.com/drive/folders/1_zhwdBQELxssCUWMpeJ71pro6R8v00s3?usp=sharing" target="_blank"
+                        class="modal-link-item support-site-link">
+                        <span class="link-label">Download do Jogo e Tutorial</span>
+                        <span class="link-desc">Acesse a pasta para baixar o jogo completo e as instruções de instalação.</span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg></span>
                     </a>
                 </div>
 
                 <!-- Seção 3: Vídeos -->
                 <div class="modal-divider">Vídeos</div>
                 <div class="modal-links">
-                    <a href="https://www.youtube.com/watch?v=vKct7vpKymw&list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i&index=1" target="_blank" class="modal-link-item youtube-link">
+                    <a href="https://www.youtube.com/watch?v=clUqynhRk7o&list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i&index=3"
+                        target="_blank" class="modal-link-item youtube-link">
                         <span class="link-label">Vídeo 1 – Playlist Raiva Zero</span>
                         <span class="link-desc">Primeiro vídeo da playlist educativa oficial.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" /><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" />
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                            </svg></span>
                     </a>
-                    <a href="https://www.youtube.com/watch?v=G79U2Erm_5k&list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i&index=2" target="_blank" class="modal-link-item youtube-link">
+                    <a href="https://www.youtube.com/watch?v=oAEHjBdlvFY&list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i&index=4"
+                        target="_blank" class="modal-link-item youtube-link">
                         <span class="link-label">Vídeo 2 – Playlist Raiva Zero</span>
                         <span class="link-desc">Segundo vídeo da playlist educativa oficial.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" /><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" />
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                            </svg></span>
                     </a>
-                    <a href="https://www.youtube.com/watch?v=_NaaRyoVR_Y&list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i&index=3" target="_blank" class="modal-link-item youtube-link">
+                    <a href="https://www.youtube.com/watch?v=_NaaRyoVR_Y&list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i&index=3"
+                        target="_blank" class="modal-link-item youtube-link">
                         <span class="link-label">Vídeo 3 – Playlist Raiva Zero</span>
                         <span class="link-desc">Terceiro vídeo da playlist educativa oficial.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" /><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" />
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                            </svg></span>
                     </a>
-                    <a href="https://www.youtube.com/watch?v=4V0RINBAlP0&list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i&index=4" target="_blank" class="modal-link-item youtube-link">
+                    <a href="https://www.youtube.com/watch?v=4V0RINBAlP0&list=PLZSeM4_ru4WSBYfGFNXnDsjbcf-rLUN3i&index=4"
+                        target="_blank" class="modal-link-item youtube-link">
                         <span class="link-label">Vídeo 4 – Playlist Raiva Zero</span>
                         <span class="link-desc">Quarto vídeo da playlist educativa oficial.</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" /><polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" /></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path
+                                    d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2c.46-1.7.46-5.33.46-5.33s0-3.63-.46-5.33z" />
+                                <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02" />
+                            </svg></span>
                     </a>
                 </div>
             </div>
@@ -609,22 +767,43 @@
                     <a href="https://www.woah.org/en/disease/rabies/" target="_blank" class="modal-link-item">
                         <span class="link-label">WOAH</span>
                         <span class="link-desc">World Organisation for Animal Health</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg></span>
                     </a>
                     <a href="https://rabiesintheamericas.com/pt/" target="_blank" class="modal-link-item">
                         <span class="link-label">RITA</span>
                         <span class="link-desc">Raiva nas Américas (Conferência)</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg></span>
                     </a>
                     <a href="https://www.cdc.gov/rabies/index.html" target="_blank" class="modal-link-item">
                         <span class="link-label">CDC</span>
                         <span class="link-desc">Centers for Disease Control and Prevention</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg></span>
                     </a>
-                    <a href="https://www.who.int/news-room/fact-sheets/detail/rabies" target="_blank" class="modal-link-item">
+                    <a href="https://www.who.int/news-room/fact-sheets/detail/rabies" target="_blank"
+                        class="modal-link-item">
                         <span class="link-label">WHO</span>
                         <span class="link-desc">World Health Organization (Fact Sheets)</span>
-                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg></span>
+                        <span class="link-external-icon"><svg width="16" height="16" viewBox="0 0 24 24" fill="none"
+                                stroke="currentColor" stroke-width="2">
+                                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                                <polyline points="15 3 21 3 21 9"></polyline>
+                                <line x1="10" y1="14" x2="21" y2="3"></line>
+                            </svg></span>
                     </a>
                 </div>
             </div>
@@ -645,46 +824,57 @@
                     <div class="carousel-track" id="carousel-track">
                         <!-- Bogodó -->
                         <div class="carousel-slide">
-                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.57.jpeg" alt="Atividade em Bogodó">
+                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.57.jpeg"
+                                alt="Atividade em Bogodó">
                             <div class="carousel-caption">📍 Bogodó</div>
                         </div>
                         <div class="carousel-slide">
-                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.57 (1).jpeg" alt="Atividade em Bogodó">
+                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.57 (1).jpeg"
+                                alt="Atividade em Bogodó">
                             <div class="carousel-caption">📍 Bogodó</div>
                         </div>
                         <div class="carousel-slide">
-                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.57 (3).jpeg" alt="Atividade em Bogodó">
+                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.57 (3).jpeg"
+                                alt="Atividade em Bogodó">
                             <div class="carousel-caption">📍 Bogodó</div>
                         </div>
                         <div class="carousel-slide">
-                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.58.jpeg" alt="Atividade em Bogodó">
+                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.58.jpeg"
+                                alt="Atividade em Bogodó">
                             <div class="carousel-caption">📍 Bogodó</div>
                         </div>
                         <div class="carousel-slide">
-                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.58 (1).jpeg" alt="Atividade em Bogodó">
+                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.58 (1).jpeg"
+                                alt="Atividade em Bogodó">
                             <div class="carousel-caption">📍 Bogodó</div>
                         </div>
                         <div class="carousel-slide">
-                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.58 (2).jpeg" alt="Atividade em Bogodó">
+                            <img src="assets/images/bogodo/WhatsApp Image 2026-04-13 at 14.28.58 (2).jpeg"
+                                alt="Atividade em Bogodó">
                             <div class="carousel-caption">📍 Bogodó</div>
                         </div>
                         <!-- Floresta -->
                         <div class="carousel-slide">
-                            <img src="assets/images/floresta/WhatsApp Image 2026-04-13 at 14.30.12.jpeg" alt="Atividade em Floresta">
+                            <img src="assets/images/floresta/WhatsApp Image 2026-04-13 at 14.30.12.jpeg"
+                                alt="Atividade em Floresta">
                             <div class="carousel-caption">📍 Floresta</div>
                         </div>
                         <div class="carousel-slide">
-                            <img src="assets/images/floresta/WhatsApp Image 2026-04-13 at 14.30.13.jpeg" alt="Atividade em Floresta">
+                            <img src="assets/images/floresta/WhatsApp Image 2026-04-13 at 14.30.13.jpeg"
+                                alt="Atividade em Floresta">
                             <div class="carousel-caption">📍 Floresta</div>
                         </div>
                         <div class="carousel-slide">
-                            <img src="assets/images/floresta/WhatsApp Image 2026-04-13 at 14.30.13 (1).jpeg" alt="Atividade em Floresta">
+                            <img src="assets/images/floresta/WhatsApp Image 2026-04-13 at 14.30.13 (1).jpeg"
+                                alt="Atividade em Floresta">
                             <div class="carousel-caption">📍 Floresta</div>
                         </div>
                     </div>
                     <!-- Controles -->
-                    <button class="carousel-btn carousel-btn-prev" id="carousel-prev" aria-label="Foto anterior">&#8249;</button>
-                    <button class="carousel-btn carousel-btn-next" id="carousel-next" aria-label="Próxima foto">&#8250;</button>
+                    <button class="carousel-btn carousel-btn-prev" id="carousel-prev"
+                        aria-label="Foto anterior">&#8249;</button>
+                    <button class="carousel-btn carousel-btn-next" id="carousel-next"
+                        aria-label="Próxima foto">&#8250;</button>
                     <!-- Indicadores -->
                     <div class="carousel-dots" id="carousel-dots"></div>
                     <!-- Contador -->
